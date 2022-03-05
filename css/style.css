@@ -99,3 +99,58 @@
         font-size: 20px;
     }
     /* About style end */
+    /* Services style start */
+    
+    .services {
+        padding-top: 165px;
+        padding-bottom: 125px;
+        color: black;
+        background: #b0d8d1;
+        text-align: center;
+    }
+    
+    .our_card {
+        margin-bottom: 30px;
+        background: white;
+        padding: 50px 40px 40px;
+        transition: 0.3s;
+    }
+    
+    .our_card:hover {
+        background: #86e0d7;
+        box-shadow: 13px 17px 14px -4px black;
+    }
+    
+    .our_card:hover .icon {
+        color: white;
+    }
+    
+    .our_card:hover .button-services {
+        border: 2px solid white;
+        color: white;
+    }
+    
+    .icon {
+        transition: 0.3s;
+        font-size: 60px;
+        color: black;
+    }
+    
+    .indent {
+        margin-bottom: 40px;
+    }
+    
+    .button-services {
+        transition: 0.3s;
+        color: black;
+        font-family: 'Open Sans Semibold';
+        padding: 10px 14px;
+        text-transform: uppercase;
+        background: transparent;
+        border: 2px solid black;
+    }
+    
+    .button-services:hover {
+        cursor: pointer;
+    }
+    /* Services style end */
