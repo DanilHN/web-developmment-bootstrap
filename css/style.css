@@ -30,7 +30,7 @@
     }
     /* Header style start */
     
-    .header>div {
+    .header {
         text-align: center;
         color: white;
         padding: 180px 0;
@@ -49,26 +49,18 @@
     }
     
     .button {
+        cursor: pointer;
         padding: 10px 25px;
         margin: 0px 10px;
         color: white;
         transition: 0.3s;
-    }
-    
-    .button_empty {
-        background: transparent;
-        border: 2px solid white;
-    }
-    
-    .button_full {
         background: #00897b;
         border: 2px solid #00897b;
     }
     
-    .button_empty:hover,
-    .button_full:hover {
-        border: 2px dotted white;
-        background: #013d37;
+    .button:hover {
+        background: transparent;
+        border: 2px solid white;
     }
     /* Headet style end */
     /* About style start */
@@ -136,8 +128,8 @@
         color: black;
     }
     
-    .indent {
-        margin-bottom: 40px;
+    .our_card p {
+        margin-bottom: 40px
     }
     
     .button-services {
@@ -154,3 +146,46 @@
         cursor: pointer;
     }
     /* Services style end */
+    /* Portfolio style start */
+    
+    .portfolio {
+        text-align: center;
+        padding-top: 120px;
+        padding-bottom: 135px;
+    }
+    
+    .portfolio button:hover,
+    .focused {
+        color: black;
+        background: transparent;
+        border: 2px solid #00897b;
+    }
+    
+    .portfolio img {
+        padding-bottom: 30px;
+    }
+    
+    .filter {
+        padding: 120px 0px;
+    }
+    
+    div[filter]:hover img {
+        filter: brightness(50%);
+        transition: 0.3s;
+    }
+    
+    .text {
+        display: none;
+    }
+    
+    div[filter]:hover .text {
+        display: block;
+        width: 100%;
+        color: white;
+        position: absolute;
+        top: 40%;
+        left: 0;
+        z-index: 3;
+        text-align: center;
+    }
+    /* Portfolio style end */
