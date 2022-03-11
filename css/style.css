@@ -3,8 +3,8 @@
         font-family: 'Open Sans';
     }
     
-    ul,
-    li {
+    .menu li,
+    menu ul {
         display: inline;
     }
     
@@ -189,3 +189,88 @@
         text-align: center;
     }
     /* Portfolio style end */
+    /* Pricing plan style start */
+    
+    .pricing {
+        padding-top: 165px;
+        padding-bottom: 125px;
+        color: black;
+        background: #f0f1f1;
+        text-align: center;
+    }
+    
+    .price {
+        transition: 0.3s;
+        background: white;
+    }
+    
+    .price__head {
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 65px;
+        background-image: url(/web-development/img/item-7.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-height: 211px;
+        max-width: 373px;
+    }
+    
+    .price__head p {
+        font-size: 25px;
+    }
+    
+    .price__head {
+        font-size: 50px;
+    }
+    
+    .price__head sub {
+        vertical-align: middle;
+        font-size: 17px;
+    }
+    
+    .price__head sup {
+        vertical-align: middle;
+        font-size: 25px;
+    }
+    
+    .price__body {
+        font-size: 17px;
+        color: #212121;
+    }
+    
+    .price__body li {
+        list-style-type: none;
+        margin: 40px auto;
+        max-width: 175px;
+        border-bottom: 1px solid #bfbfbf;
+    }
+    
+    .price__body ul {
+        padding-left: 0px;
+    }
+    
+    .price__footer {
+        padding: 0px 0px 60px 0px;
+    }
+    
+    .price__footer button {
+        cursor: pointer;
+        color: #212121;
+        background: transparent;
+        padding: 15px 30px;
+        font-size: 20px;
+        border: 2px solid #212121;
+        transition: 0.3s;
+    }
+    
+    .price__footer button:hover {
+        text-transform: uppercase;
+        color: white;
+        background: #00897b;
+        border: none;
+    }
+    
+    .price:hover {
+        box-shadow: 0px -6px 45px 15px rgba(34, 60, 80, 0.2);
+    }
+    /* Pricing plan style end */
