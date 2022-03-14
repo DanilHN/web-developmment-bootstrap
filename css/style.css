@@ -202,6 +202,7 @@
     .price {
         transition: 0.3s;
         background: white;
+        max-width: 373px;
     }
     
     .price__head {
@@ -430,3 +431,81 @@
         font-weight: bold;
     }
     /* Blog style end */
+    /* Footer style start */
+    
+    .footer {
+        padding-top: 165px;
+        padding-bottom: 125px;
+        color: #fff;
+        background-image: url(/web-development/img/footer.png);
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .footer .about__text {
+        color: white;
+        margin-top: 35px;
+    }
+    
+    .fa-location-dot,
+    .fa-phone,
+    .fa-envelope {
+        font-size: 62px;
+        color: white;
+    }
+    
+    .circle {
+        background: #3949ab;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto 35px;
+    }
+    
+    .circle+p {
+        font-size: 20px;
+    }
+    
+    .footer input,
+    .footer textarea {
+        padding: 30px;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .footer input:focus,
+    .footer textarea:focus {
+        outline: none;
+    }
+    
+    .footer textarea {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        resize: none;
+    }
+    
+    .form {
+        margin-top: 70px;
+    }
+    
+    .footer button {
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+        color: #212121;
+        padding: 20px 80px;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .rules {
+        padding: 20px 0;
+        text-align: center;
+        font-weight: 600;
+    }
+    /* Footer style end */
