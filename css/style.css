@@ -162,6 +162,7 @@
     }
     
     .portfolio img {
+        max-width: 100%;
         padding-bottom: 30px;
     }
     
@@ -203,6 +204,7 @@
         transition: 0.3s;
         background: white;
         max-width: 373px;
+        margin-bottom: 20px;
     }
     
     .price__head {
@@ -509,3 +511,29 @@
         font-weight: 600;
     }
     /* Footer style end */
+    /* Up button style start */
+    
+    #toTop {
+        z-index: 999;
+        width: 40px;
+        height: 40px;
+        border: none;
+        font-size: 20px;
+        border-radius: 3px;
+        background: #00897b;
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        cursor: pointer;
+        display: none;
+        color: black;
+    }
+    /* Up button style end */
+    
+    @media screen and (max-width: 1024px) {
+        .nav {
+            display: none;
+        }
+    }
