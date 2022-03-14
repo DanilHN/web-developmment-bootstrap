@@ -20,6 +20,7 @@
 </head>
 
 <body>
+    <div id="toTop"><i class="fa-solid fa-arrow-up"></i></div>
     <header class="menu-bar">
         <div class="container">
             <!-- row для строк -->
@@ -31,13 +32,13 @@
                 <div class="col-xl-8 ml-auto align-self-center">
                     <nav>
                         <ul class="menu d-flex justify-content-end">
-                            <li class="menu__item"><a href="#">Home</a></li>
-                            <li class="menu__item"><a href="#">About</a></li>
-                            <li class="menu__item"><a href="#">Servicing</a></li>
-                            <li class="menu__item"><a href="#">Portfolio</a></li>
-                            <li class="menu__item"><a href="#">Blog</a></li>
+                            <li class="menu__item"><a href="/"><i class="fa-solid fa-house-chimney"></i></a></li>
+                            <li class="menu__item"><a href="#about">About</a></li>
+                            <li class="menu__item"><a href="#service">Servicing</a></li>
+                            <li class="menu__item"><a href="#portfolio">Portfolio</a></li>
+                            <li class="menu__item"><a href="#blog">Blog</a></li>
                             <li class="menu__item">
-                                <a href="#">
+                                <a href="#contact">
                                     <nobr>Contact us</nobr>
                                 </a>
                             </li>
@@ -61,7 +62,7 @@
             </div>
         </div>
     </header>
-    <section class="about">
+    <section class="about" id="about">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -89,7 +90,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="service">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -158,7 +159,7 @@
                 </div>
             </div>
     </section>
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -171,37 +172,37 @@
                 </div>
             </div>
             <div class="row filter">
-                <div filter="wd" class="col-xl-4"><img src="../web-development/img/item-1.png" alt="">
+                <div filter="wd" class="col-xl-4 col-md-6"><img src="../web-development/img/item-1.png" alt="">
                     <div class="text">
                         <h5>Hand watch</h5>
                         <p>Web design</p>
                     </div>
                 </div>
-                <div filter="wd" class="col-xl-4"><img src="../web-development/img/item-2.png" alt="">
+                <div filter="wd" class="col-xl-4 col-md-6"><img src="../web-development/img/item-2.png" alt="">
                     <div class="text">
                         <h5>One day pass</h5>
                         <p>Web design</p>
                     </div>
                 </div>
-                <div filter="ud" class="col-xl-4"><img src="../web-development/img/item-3.png" alt="">
+                <div filter="ud" class="col-xl-4 col-md-6"><img src="../web-development/img/item-3.png" alt="">
                     <div class="text">
                         <h5>Modal T-shirt</h5>
                         <p>UI/UX Design</p>
                     </div>
                 </div>
-                <div filter="ud" class="col-xl-4"><img src="../web-development/img/item-4.png" alt="">
+                <div filter="ud" class="col-xl-4 col-md-6"><img src="../web-development/img/item-4.png" alt="">
                     <div class="text">
                         <h5>Flask</h5>
                         <p>UI/UX Design</p>
                     </div>
                 </div>
-                <div filter="moc" class="col-xl-4"><img src="../web-development/img/item-5.png" alt="">
+                <div filter="moc" class="col-xl-4 col-md-6"><img src="../web-development/img/item-5.png" alt="">
                     <div class="text">
                         <h5>Vessels</h5>
                         <p>Mockups</p>
                     </div>
                 </div>
-                <div filter="moc" class="col-xl-4"><img src="../web-development/img/item-6.png" alt="">
+                <div filter="moc" class="col-xl-4 col-md-6"><img src="../web-development/img/item-6.png" alt="">
                     <div class="text">
                         <h5>Turnkey solutions</h5>
                         <p>Mockups</p>
@@ -224,8 +225,8 @@
                 </div>
             </div>
         </div>
-        <div class="row justify-content-around">
-            <div class="col-xl-3">
+        <div class="row justify-content-center">
+            <div class="col-xl-3 col-md-6">
                 <div class="price">
                     <div class="price__head">
                         <P>Free Trail</P>
@@ -244,7 +245,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-md-6">
                 <div class="price">
                     <div class="price__head">
                         <P>Basic</P>
@@ -263,7 +264,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-xl-3">
+            <div class="col-xl-3 col-md-6">
                 <div class="price">
                     <div class="price__head">
                         <P>Ultimates</P>
@@ -484,7 +485,7 @@
             </div>
         </div>
     </section>
-    <section class="services">
+    <section class="services" id="blog">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
@@ -547,7 +548,7 @@
         </div>
 
     </section>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="conteiner">
             <div class="row justify-content-center">
                 <div class="col-xl-8">
